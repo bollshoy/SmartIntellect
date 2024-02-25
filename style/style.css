@@ -264,10 +264,6 @@ a,p,h1,h2,h3,h4,h5,h6,span {
     margin-bottom: 150px;
 }
 
-.aiBlock__img {
-    background-color: rgba(51, 51, 51, 0.1);
-}
-
 .aiBlock__block-title {
     margin-bottom: 20px;
     display: inline-block;
@@ -507,6 +503,7 @@ a,p,h1,h2,h3,h4,h5,h6,span {
     line-height: 32px;
     margin-bottom: 20px;
     display: inline-block;
+    text-align: center;
 }
 
 .future__item-text {
@@ -545,6 +542,7 @@ a,p,h1,h2,h3,h4,h5,h6,span {
     border-radius: 40px;
     text-align: center;
     padding-top: 5vh;
+    transition: .5s ease;
 }
 
 .useai__block-title {
@@ -560,6 +558,7 @@ a,p,h1,h2,h3,h4,h5,h6,span {
     font-size: 18px;
     line-height: 22px;
     margin-bottom: 30px;
+    padding: 10px;
 }
 
 .useai__link {
@@ -570,6 +569,12 @@ a,p,h1,h2,h3,h4,h5,h6,span {
     font-size: 18px;
     line-height: 22px;
     transition: .5s ease;
+    margin-top: auto;
+    margin-bottom: 0;
+}
+
+.gpt__text {
+    margin-bottom: 50px;
 }
 
 .gpt:hover {

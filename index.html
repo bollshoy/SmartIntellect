@@ -1,0 +1,574 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SmartIntellect</title>
+    <link rel="stylesheet" href="./style/style.css" id="theme">
+    <link rel="stylesheet" href="./style/mediaStyle/media.css" id="mediaThem">
+    <link rel="icon" type="image/x-icon" href="/images/logo.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+</head>
+<body>
+<header class="header" id="header">
+    <div class="header__container container">
+        <div class="burger-icon">&#9776;</div>
+        <div class="header__logo">
+            <a href="#" class="logo">
+                <img src="./images/logo.jpg" alt="" class="logo__img">
+            </a>
+        </div>
+        <nav class="header__menu">
+            <ul class="header__list">
+                <li class="header__item"><a href="#main" class="header__link">Головна</a></li>
+                <li class="header__item"><a href="#statistics" class="header__link">Про нас</a></li>
+                <li class="header__item"><a href="#aiBlock" class="header__link">Штучний Iнтелект</a></li>
+                <li class="header__item"><a href="#footer" class="header__link">Контакти</a></li>
+            </ul>
+        </nav>
+        <div class="darkMod" id="switchMode">
+            <a href="#"><img src="./images/moonDark.svg" alt="" class="darkMode__img" width="40px" id="darkImg"></a>
+        </div>
+    </div>
+</header>
+<div class="section__down" id="donw">
+    <a href="#footer"><img src="./images/arrowDown.svg" alt="" class="down__img" id="downThem"></a>
+    <p class="down__text">Вниз</p>
+</div>
+<main class="main">
+    <!--hero-->
+    <section class="hero">
+        <div class="hero__container container">
+            <div class="hero__img myAnimation ">
+                <img src="./images/main.png" alt="">
+            </div>
+            <div class="hero__content">
+                <h1 class="hero__title">Вітаємо у <br> SmartIntellect</h1>
+                <p class="hero__text">
+                    Штучний інтелект (ШІ) - це галузь комп'ютерних наук, що
+                    спеціалізується на створенні програм і систем, які демонструють
+                    інтелектуальні здібності, подібні до людського інтелекту.
+                    Ці здібності включають навчання, аналіз даних, розпізнавання
+                    образів, прийняття рішень і виконання завдань, які зазвичай
+                    вимагають людського інтелекту.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!--statistics-->
+    <section class="statistics" id="statistics">
+        <div class="statistics__container container">
+            <span class="statistics__subtitle">Статистика</span>
+            <h2 class="statistics__title" data-aos="fade-right">
+                24 ключові статистики та тенденції <br>
+                в ШІ за 2024 рік за данними <a href="https://www.forbes.com/advisor/business/ai-statistics/"
+                                               class="forbes" target="_blank">Forbes</a>
+            </h2>
+            <div class="line"></div>
+            <div class="statistics__content myAnimation">
+                <div class="statistics__block">
+                    <span class="statistics__block-title">Більше 75%</span>
+                    <p class="statistics__block-text">
+                        Споживачі занепокоєні <br>
+                        дезінформацією від ШІ <br>
+                        - Дослідження споживчих <br>
+                        настроїв у сфері ШІ <br>
+                        показує, що до 2030 року <br>
+                        ШІ, як очікується, забезпечить <br>
+                        значний чистий приріст <br>
+                        ВВП США на 21%, що <br>
+                        вказує на його вплив <br>
+                        на економічне <br>
+                        зростання.
+                    </p>
+                </div>
+                <div class="statistics__block">
+                    <span class="statistics__block-title">ChatGPT </span>
+                    <p class="statistics__block-text style__text">
+                        Видатний рівень <br>
+                        впровадження ChatGPT <br>
+                        очевидний, оскільки <br>
+                        за перші п'ять днів <br>
+                        після випуску він <br>
+                        зібрав 1 мільйон <br>
+                        користувачів.
+                    </p>
+                </div>
+                <div class="statistics__block">
+                    <span class="statistics__block-title">До 2030 року</span>
+                    <p class="statistics__block-text">
+                        Очікується, що до 2030 року <br>
+                        10% транспортних засобів <br>
+                        будуть безпілотними, оскільки <br>
+                        прогнозується, що світовий <br>
+                        ринок безпілотних автомобілів <br>
+                        зросте з 20,3 мільйона 2021 <br>
+                        року до 62,4 мільйона.
+                    </p>
+                </div>
+                <div class="statistics__block">
+                    <span class="statistics__block-title">64%</span>
+                    <p class="statistics__block-text">
+                        Як показало опитування <br>
+                        <a href="#" style="text-decoration: underline">Forbes Advisor</a>, 64% компаній <br>
+                        вважають, що штучний інтелект <br>
+                        допоможе підвищити їхню загальну <br>
+                        продуктивність. Це демонструє <br>
+                        зростаючу впевненість у здатності <br>
+                        ШІ перетворити бізнес-операції.
+                    </p>
+                </div>
+                <div class="statistics__block">
+                    <span class="statistics__block-title">К 2027 року</span>
+                    <p class="statistics__block-text style__text">
+                        За прогнозами, до 2027 року <br>
+                        ринок штучного інтелекту <br>
+                        сягне приголомшливих 407 <br>
+                        мільярдів доларів, відчуваючи <br>
+                        істотне зростання порівняно <br>
+                        з передбачуваним доходом у <br>
+                        86,9 мільярдів доларів у <br>
+                        2022 році.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--aiBlock-->
+    <section class="aiBlock" id="aiBlock">
+        <div class="aiBlock__container container">
+            <h2 class="aiBlock__title">Типи систем <br> Штучного Інтелекту</h2>
+            <div class="aiBlock__content">
+                <img src="./images/star.svg" alt="" class="aiBlock__img">
+                <div class="aiBlock__block">
+                    <span class="aiBlock__block-title">Вузький або слабкий ШІ</span>
+                    <p class="aiBlock__block-text">
+                        Цей тип ШІ призначений для <br>
+                        виконання конкретного завдання <br>
+                        або групи завдань. Це найпоширеніший <br>
+                        тип ШІ, який використовується сьогодні.
+                    </p>
+                </div>
+                <img src="./images/star.svg" alt="" class="aiBlock__img">
+                <div class="aiBlock__block">
+                    <span class="aiBlock__block-title">Загальний або сильний ШІ</span>
+                    <p class="aiBlock__block-text">
+                        Загальний штучний інтелект, з <br>
+                        іншого боку, призначений для <br>
+                        виконання будь-якого інтелектуального <br>
+                        завдання, яке може вирішити людина.
+                    </p>
+                </div>
+                <img src="./images/star.svg" alt="" class="aiBlock__img">
+                <div class="aiBlock__block">
+                    <span class="aiBlock__block-title">Штучний сверхінтелект (ІСІ)</span>
+                    <p class="aiBlock__block-text">
+                        Це свого роду віртуальний <br>
+                        штучний інтелект, який <br>
+                        розумніший за будь-яку людину.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--timline-->
+    <section class="timeline">
+        <h2 class="timline__title">Історія ШІ від початку до сьогоднішнього дня</h2>
+        <div class="timeline__container container">
+            <div class="timeline">
+                <div class="icon"></div>
+                <div class="date-content">
+                    <div class="date-outer">
+                    <span class="date">
+                        <span class="month">68 Years</span>
+                        <span class="year">1956</span>
+                    </span>
+                    </div>
+                </div>
+                <div class="timeline-content" data-aos="fade-left">
+                    <h3 class="title">Дартмутська конференція</h3>
+                    <p class="description">
+                        Ця конференція стала народженням індустрії штучного інтелекту та концепції штучного інтелекту і
+                        вважається визначальною подією в історії штучного інтелекту. Вона об'єднала провідних вчених
+                        того часу, які працювали над розробкою машин, здатних імітувати людське мислення.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline">
+                <div class="icon"></div>
+                <div class="date-content">
+                    <div class="date-outer">
+                    <span class="date">
+                        <span class="month">67 Years</span>
+                        <span class="year">1957</span>
+                    </span>
+                    </div>
+                </div>
+                <div class="timeline-content" data-aos="fade-right">
+                    <h3 class="title">Перцептрон</h3>
+                    <p class="description">
+                        Це була однією з перших нейромережевих моделей, яка продемонструвала можливості машинного
+                        навчання. Винайдений у 1957 році Френком Розенблатом, перцептрон став першою моделлю, яку можна
+                        було навчити за допомогою навчальних даних. </p>
+                </div>
+            </div>
+
+            <div class="timeline">
+                <div class="icon"></div>
+                <div class="date-content">
+                    <div class="date-outer">
+                    <span class="date">
+                        <span class="month">64 Years</span>
+                        <span class="year">1960</span>
+                    </span>
+                    </div>
+                </div>
+                <div class="timeline-content" data-aos="fade-left">
+                    <h3 class="title">Бум штучного інтелекту</h3>
+                    <p class="description">
+                        У цей період були зроблені значні інвестиції в дослідження і розробку ШІ, з'явилася низка нових
+                        моделей ШІ, в тому числі перші експертні системи. </p>
+                </div>
+            </div>
+
+            <div class="timeline">
+                <div class="icon"></div>
+                <div class="date-content">
+                    <div class="date-outer">
+                    <span class="date">
+                        <span class="month">54 Years</span>
+                        <span class="year">1970</span>
+                    </span>
+                    </div>
+                </div>
+                <div class="timeline-content" data-aos="fade-right">
+                    <h3 class="title">Створення експертних систем</h3>
+                    <p class="description">
+                        Ці системи були розроблені для моделювання прийняття рішень людиною-експертом. Вони виявилися
+                        ефективними в таких галузях, як медицина та геологія, оскільки використовують базу знань для
+                        вирішення конкретних проблем. </p>
+                </div>
+            </div>
+
+            <div class="timeline">
+                <div class="icon"></div>
+                <div class="date-content">
+                    <div class="date-outer">
+                    <span class="date">
+                        <span class="month">34 Years</span>
+                        <span class="year">1990</span>
+                    </span>
+                    </div>
+                </div>
+                <div class="timeline-content" data-aos="fade-left">
+                    <h3 class="title">Поява обробки природної мови та комп’ютерного бачення</h3>
+                    <p class="description">
+                        Ці технології дозволили комп'ютерам краще розуміти й інтерпретувати людську мову та візуальні
+                        дані. Це створило нові можливості для використання штучного інтелекту в таких сферах, як
+                        переклад, розпізнавання об'єктів і аналіз настроїв. </p>
+                </div>
+            </div>
+
+            <div class="timeline">
+                <div class="icon"></div>
+                <div class="date-content">
+                    <div class="date-outer">
+                    <span class="date">
+                        <span class="month">24 Years</span>
+                        <span class="year">2000</span>
+                    </span>
+                    </div>
+                </div>
+                <div class="timeline-content" data-aos="fade-right">
+                    <h3 class="title">Розвиток великих даних</h3>
+                    <p class="description">
+                        Збір та аналіз великих обсягів даних є ключовим фактором для навчання та розробки моделей ШІ,
+                        забезпечуючи більш точні та ефективні моделі, які можуть обробляти реальні неструктуровані дані.
+                </div>
+            </div>
+
+            <div class="timeline">
+                <div class="icon"></div>
+                <div class="date-content">
+                    <div class="date-outer">
+                    <span class="date">
+                        <span class="month">14 Years</span>
+                        <span class="year">2010</span>
+                    </span>
+                    </div>
+                </div>
+                <div class="timeline-content" data-aos="fade-left">
+                    <h3 class="title">Поява глибинного навчання</h3>
+                    <p class="description">
+                        Ця технологія дозволила створити більш складні та потужні моделі штучного інтелекту. Глибоке
+                        навчання використовує багатошарові нейронні мережі для моделювання складних взаємозв'язків між
+                        вхідними та вихідними даними. </p>
+                </div>
+            </div>
+
+            <div class="timeline">
+                <div class="icon"></div>
+                <div class="date-content">
+                    <div class="date-outer">
+                    <span class="date">
+                        <span class="month">4 Years</span>
+                        <span class="year">2020</span>
+                    </span>
+                    </div>
+                </div>
+                <div class="timeline-content" data-aos="fade-right">
+                    <h3 class="title">Розробка генеративного штучного інтелекту</h3>
+                    <p class="description">
+                        Це найновіший напрямок штучного інтелекту, де нові, оригінальні вихідні дані створюються на
+                        основі навчання. Генеративні моделі можуть створювати нові зображення, текст та інші типи даних,
+                        які відображають характеристики навчального набору даних. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="future" id="future">
+        <div class="future__container">
+            <div class="future__content">
+                <h4 class="future__title">Яке майбутнє у ШІ?</h4>
+                <div class="future__line"></div>
+                <ul class="future__list">
+                    <li class="future__item">
+                        <span class="future__item-span">Вдосконалена автоматизація</span>
+                        <p class="future__item-text">
+                            Штучний інтелект може автоматизувати багато рутинних завдань, таких як обробка даних, <br>
+                            контроль запасів і навіть водіння. Це може призвести до підвищення продуктивності та <br>
+                            зниження витрат на робочу силу.
+                        </p>
+                    </li>
+                    <div class="future__line"></div>
+                    <li class="future__item">
+                        <span class="future__item-span">Вдосконалення охорони здоров'я</span>
+                        <p class="future__item-text">
+                            ШІ може допомогти лікарям діагностувати захворювання, аналізувати медичні зображення та <br>
+                            рекомендувати персоналізовані плани лікування. Наприклад, ШІ може аналізувати рентгенограми
+                            <br>
+                            і виявляти рак на ранніх стадіях.
+                        </p>
+                    </li>
+                    <div class="future__line"></div>
+                    <li class="future__item">
+                        <span class="future__item-span">Майбутня освіта</span>
+                        <p class="future__item-text">
+                            ШІ може адаптуватися до індивідуального рівня і стилю навчання кожного студента, надаючи
+                            <br>
+                            індивідуальні уроки і навчальні матеріали. Це дозволяє учням навчатися ефективніше та у <br>
+                            власному темпі.
+                        </p>
+                    </li>
+                    <div class="future__line"></div>
+                    <li class="future__item">
+                        <span class="future__item-span">Сталий розвиток</span>
+                        <p class="future__item-text">
+                            ШІ може сприяти боротьбі зі зміною клімату, прогнозуючи погодні умови, оптимізуючи <br>
+                            використання енергії та підтримуючи дослідження в галузі чистої енергії. Наприклад, ШІ можна
+                            <br>
+                            використовувати для оптимізації роботи вітрових електростанцій, прогнозуючи швидкість і <br>
+                            напрямок вітру.
+                        </p>
+                    </li>
+                    <div class="future__line"></div>
+                    <li class="future__item">
+                        <span class="future__item-span">Покращення безпеки</span>
+                        <p class="future__item-text">
+                            ШІ може підвищити безпеку, допомагаючи виявляти шахрайство, прогнозувати злочини та <br>
+                            покращувати кібербезпеку. Наприклад, ШІ можна використовувати для аналізу транзакцій і <br>
+                            виявлення підозрілої активності.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="future__img">
+                <img src="images/future.png" height="881" width="1216"/>
+            </div>
+        </div>
+    </section>
+    <!--useAI-->
+    <section class="useai">
+        <div class="useai__container container">
+            <div class="useai__content">
+                <div class="useai__block gpt">
+                    <span class="useai__block-title">ChatGPT</span>
+                    <p class="useai__block-text ai__hover">
+                        OpenAI створив ChatGPT, модель, яка генерує текст на основі контексту та попередніх розмов;
+                        ChatGPT підтримує цілий ряд завдань, таких як навчання, планування, письмо та взаємодія із
+                        зображенням та голосом.
+                    </p>
+                    <a href="#" target="_blank" class="useai__link hover__link">Спробувати</a>
+                </div>
+                <div class="useai__block bard">
+                    <span class="useai__block-title">Bard (Gemini)</span>
+                    <p class="useai__block-text">
+                        Gemini — це інструмент від Google, який використовує штучний інтелект для текстового написання,
+                        планування та навчання. Він базується на великій мовній моделі Google та забезпечує відповіді на
+                        запитання та виправлення помилок у коді.
+                    </p>
+                    <a href="#" target="_blank" class="useai__link hover__link">Спробувати</a>
+                </div>
+                <div class="useai__block bing">
+                    <span class="useai__block-title">Microsoft Copilot</span>
+                    <p class="useai__block-text">
+                        Copilot від Microsoft - це асистент штучного інтелекту, який підвищує продуктивність, заохочує
+                        творчість і допомагає людям зрозуміти інформацію за допомогою простого спілкування в чаті.
+                        Copilot може допомогти у виконанні цілого ряду завдань, включаючи кодування, планування та
+                        навчання.
+                    </p>
+                    <a href="#" target="_blank" class="useai__link hover__link">Спробувати</a>
+                </div>
+                <div class="useai__block midjourney">
+                    <span class="useai__block-title">Midjourney</span>
+                    <p class="useai__block-text">
+                        Midjourney - незалежний дослідницький інститут, який досліджує нові способи мислення та розширює
+                        уяву людства, створюючи образи на основі описів природної мови, такі як DALL-E від OpenAI та
+                        Stability AI від Stable Diffusion.
+                    </p>
+                    <a href="#" target="_blank" class="useai__link hover__link">Спробувати</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="section__up" id="up">
+        <a href="#header"><img src="./images/arrowUp.svg" alt="" class="up__img" id="upThem"></a>
+        <p class="up__text">Вгору</p>
+    </div>
+    <!--slider-->
+    <section id="mySlider" class="splide" aria-label="Splide Basic HTML Example">
+        <div class="splide__track">
+            <h3 class="splide__title animation myAnimation">Використання ШІ в різних галузях</h3>
+            <ul class="splide__list">
+                <li class="splide__slide medical">
+                    <div class="medical__img splider__img">
+                        <img src="./images/medical.png" alt="">
+                    </div>
+                    <div class="medical__content splider__content">
+                        <span class="medical__title splider__title">Медицина</span>
+                        <p class="medical__text splider__text">
+                            Штучний інтелект (ШІ) відіграє важливу роль у сучасній медицині. Він використовується для
+                            <br>
+                            аналізу медичних зображень (УЗД, КТ, МРТ, результатів аналізів), підтримки прийняття <br>
+                            медичних рішень, персоналізованого лікування, онлайн-консультацій, телемоніторингу та <br>
+                            допомоги пацієнтам, розробки ліків за допомогою інтелектуальних систем, протезування тощо.
+                            <br>
+                            Штучний інтелект також допомагає у зборі та інтерпретації даних про пацієнтів для полегшення
+                            <br>
+                            діагностики, а також може бути корисним у таких сферах
+                        </p>
+                    </div>
+                </li>
+                <li class="splide__slide finance">
+                    <div class="finance__img splider__img">
+                        <img src="./images/finance.png" alt="">
+                    </div>
+                    <div class="finance__content splider__content">
+                        <span class="finance__title splider__title">Фінанси</span>
+                        <p class="finance__text splider__text">
+                            ШІ революціонізує фінансову галузь, автоматизуючи багато рутинних завдань, таких як обробка
+                            <br>
+                            фінансових документів, реєстрація транзакцій і створення звітів. ШІ може точно оцінювати
+                            <br>
+                            минулі та поточні ринкові тенденції, виявляти закономірності та прогнозувати майбутні ціни.
+                            <br>
+                            Алгоритми ШІ також можуть здійснювати операції в режимі реального часу, використовуючи <br>
+                            попередньо запрограмовані правила та умови для оптимізації інвестиційних стратегій і <br>
+                            максимізації прибутку.
+                        </p>
+                    </div>
+                </li>
+                <li class="splide__slide education">
+                    <div class="education__img splider__img">
+                        <img src="./images/education.png" alt="">
+                    </div>
+                    <div class="education_content splider__content">
+                        <span class="splider__title">Освіта</span>
+                        <p class="splider__text">
+                            В освіті ШІ може створювати індивідуальні навчальні плани та навчальні матеріали для окремих
+                            <br>
+                            студентів; ШІ може аналізувати дані про успішність студентів і надавати навчальні матеріали,
+                            <br>
+                            оптимізовані відповідно до рівня їхніх знань і здібностей; ШІ також може використовуватися
+                            <br>
+                            для прискорення процесів, зменшення людських помилок і підвищення продуктивності за <br>
+                            допомогою рутинних завдань, щоб прискорити процеси, зменшити кількість людських помилок і
+                            <br>
+                            підвищити продуктивність.
+                        </p>
+                    </div>
+                </li>
+                <li class="splide__slide production">
+                    <div class="production__img splider__img">
+                        <img src="./images/production.png" alt="">
+                    </div>
+                    <div class="production__content splider__content">
+                        <span class="splider__title">Виробництво</span>
+                        <p class="splider__text">
+                            У виробництві штучний інтелект використовується для автоматизації рутинних завдань, щоб <br>
+                            прискорити процеси, зменшити кількість людських помилок і підвищити продуктивність. ШІ <br>
+                            також використовується для контролю якості продукції та автоматизації виробничих ліній.
+                        </p>
+                    </div>
+                </li>
+                <li class="splide__slide transportation">
+                    <div class="transportation__img splider__img">
+                        <img src="./images/transportation.png" alt="">
+                    </div>
+                    <div class="transportation__content splider__content">
+                        <span class="splider__title">Транспорт</span>
+                        <p class="splider__text">
+                            На транспорті штучний інтелект використовується для автоматизації та оптимізації різних <br>
+                            процесів. Він може допомогти в управлінні дорожнім рухом, оптимізації маршрутів, <br>
+                            прогнозуванні та запобіганні аваріям, а також в автономному керуванні транспортними <br>
+                            засобами.
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="splide__arrows">
+            <button class="splide__arrow splide__arrow--prev">
+                <img src="./images/arrow.png" alt="" class="splide__arows-img" width="30px" id="lightLeftArrow">
+            </button>
+            <button class="splide__arrow splide__arrow--next">
+                <img src="./images/right-arrow.png" alt="" class="splide__arows-img" width="30px" id="lightRightArrow">
+            </button>
+        </div>
+    </section>
+    <!--footer-->
+    <footer class="footer" id="footer">
+        <div class="footer__container container">
+            <div class="header__logo footer__logo">
+                <a href="#" class="logo">
+                    <img src="./images/logo.jpg" alt="" class="logo__img">
+                </a>
+            </div>
+            <ul class="footer__list">
+                <li class="footer__item"><a href="#" class="footer__link">Головна</a></li>
+                <li class="footer__item"><a href="#" class="footer__link">Про нас</a></li>
+                <li class="footer__item"><a href="#" class="footer__link">Штучний Iнтелект</a></li>
+                <li class="footer__item"><a href="#" class="footer__link">Контакти</a></li>
+            </ul>
+            <div class="footer__social">
+                <a href="https://t.me/bollshoyy" target="_blank" class="social__link"><img
+                        src="./images/icons/telegram.png" alt="telegram" class="social__img"></a>
+                <a href="https://github.com/t0xik11" target="_blank" class="social__link"><img
+                        src="./images/icons/github.png" alt="github" class="social__img"></a>
+                <a href="https://discord.gg/vuGEabSD5A" target="_blank" class="social__link"><img
+                        src="./images/icons/discord.png" alt="discord" class="social__img"></a>
+            </div>
+        </div>
+    </footer>
+</main>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+<script src="js/script.js"></script>
+<script src="./js/assistant.js"></script>
+</body>
+</html>

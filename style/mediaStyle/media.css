@@ -120,7 +120,6 @@
     }
 
     .header__container {
-        margin-bottom: 250px;
         margin-top: 20px;
     }
 
@@ -340,10 +339,6 @@
 
     .header {
         padding: 10px ;
-    }
-
-    .header__container {
-        margin-bottom: 250px;
     }
 
     .hero__img {

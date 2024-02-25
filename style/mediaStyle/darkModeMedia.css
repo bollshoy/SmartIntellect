@@ -116,7 +116,6 @@
     }
 
     .header__container {
-        margin-bottom: 250px;
         margin-top: 20px;
     }
 
@@ -202,14 +201,6 @@
         padding: 0 20px;
         align-items: center;
         margin: 0 auto;
-    }
-
-    .header__container {
-        margin-bottom: 200px;
-    }
-
-    .section__down{
-        margin-bottom: 200px;
     }
 
     .hero__title {

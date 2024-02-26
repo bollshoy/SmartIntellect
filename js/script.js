@@ -30,29 +30,28 @@ let switchMode = document.getElementById("switchMode");
 
 switchMode.onclick = function () {
     let theme = document.getElementById("theme");
+    let darkImg = document.getElementById('darkImg')
     let mediaThem = document.getElementById('mediaThem')
     let upThem = document.getElementById("upThem");
-    let downThem = document.getElementById('downThem')
     let lightLeftArrow = document.getElementById("lightLeftArrow")
     let lightRightArrow = document.getElementById("lightRightArrow")
-    let mediaDarkMode;
 
     if (theme.getAttribute("href") == "./style/style.css") {
         theme.href = "./style/darkMode.css";
         mediaThem.href = "./style/mediaStyle/darkModeMedia.css";
         upThem.src = "./images/arrowUpLight.svg";
-        downThem.src = "./images/arrowDownLight.svg";
         lightLeftArrow.src = "./images/arrowLightLeft.svg";
         lightRightArrow.src = "./images/arrowLightRight.svg";
     } else {
         theme.href = "./style/style.css";
         mediaThem.href = "./style/mediaStyle/media.css"
         upThem.src = "./images/arrowUp.svg";
-        downThem.src = "./images/arrowDown.svg";
         lightRightArrow.src = "./images/right-arrow.png";
         lightLeftArrow.src = "./images/arrow.png";
     }
 }
+
+
 
 //анимация появление при скролинге
 let elements = document.getElementsByClassName('myAnimation');

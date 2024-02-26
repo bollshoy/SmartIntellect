@@ -31,14 +31,13 @@
             </ul>
         </nav>
         <div class="darkMod" id="switchMode">
-            <a href="#"><img src="./images/moonDark.svg" alt="" class="darkMode__img" width="40px" id="darkImg"></a>
+            <svg class="moonSvg" width="50px" height="50px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path opacity="0.1" d="M20.8667 15.3164C20.9187 15.1983 20.8006 15.0785 20.6792 15.1223C17.3165 16.3368 13.4497 15.6201 10.9124 13.0837C8.38689 10.5592 7.66861 6.7169 8.86147 3.36559C8.91069 3.22729 8.77418 3.09296 8.64021 3.15299C8.63117 3.15704 8.62214 3.16111 8.61311 3.16518C6.75765 4.00313 5.10654 5.4166 4.13683 7.19736C3.1002 9.10101 2.75831 11.3058 3.16975 13.4339C3.58119 15.5619 4.72034 17.4806 6.39193 18.861C8.06352 20.2414 10.1634 20.9977 12.3317 21C14.1962 21.0001 16.0181 20.4424 17.5629 19.3987C18.9891 18.4352 20.1189 16.9756 20.8311 15.3962C20.8431 15.3697 20.8549 15.343 20.8667 15.3164Z" fill="#323232"/>
+                <path d="M20.8667 15.3164C20.9187 15.1983 20.8006 15.0785 20.6792 15.1223V15.1223C17.3165 16.3368 13.4497 15.6201 10.9124 13.0837C8.38689 10.5592 7.66861 6.7169 8.86147 3.36559V3.36559C8.91069 3.22729 8.77418 3.09296 8.64021 3.15299C8.63117 3.15704 8.62214 3.16111 8.61311 3.16518C6.75765 4.00313 5.10654 5.4166 4.13683 7.19736C3.1002 9.10101 2.75831 11.3058 3.16975 13.4339C3.58119 15.5619 4.72034 17.4806 6.39193 18.861C8.06352 20.2414 10.1634 20.9977 12.3317 21C14.1962 21.0001 16.0181 20.4424 17.5629 19.3987C18.9891 18.4352 20.1189 16.9756 20.8311 15.3962C20.8431 15.3697 20.8549 15.343 20.8667 15.3164Z" stroke="#323232" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
         </div>
     </div>
 </header>
-<div class="section__down" id="donw">
-    <a href="#footer"><img src="./images/arrowDown.svg" alt="" class="down__img" id="downThem"></a>
-    <p class="down__text">Вниз</p>
-</div>
 <main class="main">
     <!--hero-->
     <section class="hero">
@@ -395,7 +394,7 @@
     <!--useAI-->
     <section class="useai">
         <div class="useai__container container">
-            <div class="useai__content">
+            <div class="useai__content"  data-aos="fade-left">
                 <div class="useai__block gpt">
                     <span class="useai__block-title">ChatGPT</span>
                     <p class="useai__block-text ai__hover gpt__text">
@@ -425,7 +424,7 @@
                 </div>
                 <div class="useai__block midjourney">
                     <span class="useai__block-title">Midjourney</span>
-                    <p class="useai__block-text">
+                    <p class="useai__block-text"  style="margin-bottom: 50px">
                         Midjourney - незалежний дослідницький інститут, який досліджує нові способи мислення та розширює
                         уяву людства, створюючи образи на основі описів природної мови, такі як DALL-E від OpenAI та
                         Stability AI від Stable Diffusion.
@@ -568,6 +567,5 @@
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
 <script src="js/script.js"></script>
-<script src="./js/assistant.js"></script>
 </body>
 </html>

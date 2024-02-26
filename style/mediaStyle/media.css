@@ -6,6 +6,11 @@
         align-items: center;
         margin: 0 auto;
     }
+
+    .header__container {
+        padding: 10px;
+    }
+
     .hero__img img {
         padding-left: 10px;
         margin-bottom: 100px;
@@ -31,6 +36,10 @@
         padding: 0 20px;
         align-items: center;
         margin: 0 auto;
+    }
+
+    .header__container {
+        padding: 10px;
     }
 
     .statistics__content {
@@ -104,10 +113,6 @@
     .hero__img {
         width: 500px;
     }
-
-    .section__down{
-        margin-bottom: 200px;
-    }
 }
 
 /* 768 */
@@ -122,6 +127,7 @@
     .header__container {
         margin-top: 20px;
         padding: 10px;
+        margin-bottom: 200px;
     }
 
     .header__menu {
@@ -216,7 +222,8 @@
         margin: 0 auto;
     }
 
-    .section__down{
+    .header__container {
+        padding: 10px;
         margin-bottom: 200px;
     }
 
@@ -336,6 +343,11 @@
         padding: 0 20px;
         margin: 0 auto;
         align-items: center;
+    }
+
+    .header__container {
+        padding: 10px;
+        margin-bottom: 200px;
     }
 
     .hero__img {

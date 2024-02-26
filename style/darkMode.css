@@ -79,11 +79,16 @@ a,p,h1,h2,h3,h4,h5,h6,span {
     justify-content: space-between;
     background-color: var(--color-gray);
     border-radius: 25px;
+    padding: 10px;
 }
 
 .header__list {
     display: flex;
     gap: 35px;
+}
+
+.moonSvg {
+    fill: var(--color-light);
 }
 
 .header__item {
@@ -550,7 +555,7 @@ a,p,h1,h2,h3,h4,h5,h6,span {
 }
 .useai__block {
     width: 300px;
-    height: 400px;
+    height: 440px;
     border: 2px solid var( --color-light);
     border-radius: 40px;
     text-align: center;
@@ -638,27 +643,6 @@ a,p,h1,h2,h3,h4,h5,h6,span {
 }
 
 .up__text {
-    text-transform: uppercase;
-    font-size: 18px;
-    line-height: 22px;
-    font-weight: 500;
-}
-
-/*section down*/
-.section__down {
-    display: flex;
-    align-items: center;
-    margin-bottom: 100px;
-    justify-content: center;
-    cursor: pointer;
-    gap: 5px;
-}
-
-.down__img {
-    max-width: 50px;
-}
-
-.down__text {
     text-transform: uppercase;
     font-size: 18px;
     line-height: 22px;

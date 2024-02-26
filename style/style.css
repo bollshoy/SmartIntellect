@@ -79,6 +79,7 @@ a,p,h1,h2,h3,h4,h5,h6,span {
     justify-content: space-between;
     background-color: #dbdbdb;
     border-radius: 25px;
+    padding: 10px;
 }
 
 .header__list {
@@ -536,8 +537,8 @@ a,p,h1,h2,h3,h4,h5,h6,span {
     margin-bottom: 200px;
 }
 .useai__block {
-    width: 300px;
-    height: 400px;
+    width: 340px;
+    height: 440px;
     border: 2px solid black;
     border-radius: 40px;
     text-align: center;
@@ -558,6 +559,7 @@ a,p,h1,h2,h3,h4,h5,h6,span {
     font-size: 18px;
     line-height: 22px;
     margin-bottom: 30px;
+    padding: 10px;
     padding: 10px;
 }
 
@@ -625,27 +627,6 @@ a,p,h1,h2,h3,h4,h5,h6,span {
 }
 
 .up__text {
-    text-transform: uppercase;
-    font-size: 18px;
-    line-height: 22px;
-    font-weight: 500;
-}
-
-/*section down*/
-.section__down {
-    display: flex;
-    align-items: center;
-    margin-bottom: 100px;
-    justify-content: center;
-    cursor: pointer;
-    gap: 5px;
-}
-
-.down__img {
-    max-width: 50px;
-}
-
-.down__text {
     text-transform: uppercase;
     font-size: 18px;
     line-height: 22px;

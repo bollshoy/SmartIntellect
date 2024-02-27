@@ -18,7 +18,9 @@
 
     .future__img img{
         width: 100%;
+        overflow-x: hidden;
     }
+
     .useai__block-text {
         font-size: 16px;
         margin-bottom: 20px;
@@ -167,6 +169,10 @@
         transition: .3s ease;
     }
 
+    .hero__img {
+        width: 350px;
+    }
+
     .aiBlock__block-title {
         margin-bottom: 10px;
         line-height: 32px;
@@ -221,7 +227,7 @@
     }
 
     .hero__img {
-        width: 350px;
+        width: 300px;
     }
 
     .aiBlock__content {
@@ -366,6 +372,16 @@
         text-align: center;
         align-items: center;
         justify-content: center;
+    }
+
+    .useai__block {
+        width: 300px;
+        height: 400px;
+    }
+
+    .timline__title {
+        font-size: 35px;
+        line-height: 48px;
     }
 
     .description {
